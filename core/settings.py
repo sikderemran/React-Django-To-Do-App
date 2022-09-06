@@ -136,6 +136,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "assets"), 
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000/",
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000"
 ]
+
